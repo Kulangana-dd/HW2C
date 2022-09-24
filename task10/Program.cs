@@ -5,7 +5,7 @@
 782 -> 8
 918 -> 1*/
 
-int getSecondDigit(int number)
+int GetSecondDigit(int number)
 {
     int result = new int();
     result = number % 100 / 10;
@@ -17,7 +17,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if(number > 99 & number < 1000)
 {
-    int num2 = getSecondDigit(number);
+    int num2 = GetSecondDigit(number);
     Console.WriteLine(num2);
 }
 else
